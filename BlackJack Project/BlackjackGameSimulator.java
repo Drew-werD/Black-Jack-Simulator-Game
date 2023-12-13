@@ -7,7 +7,7 @@ import java.util.Scanner;
  *    Dealer. The player closest to having 21 points win, and if either player
  *    gets over 21 points, they immediately lose.
  *
- *    @author Andrew White and Rohan Malhotra
+ *    @author Andrew White
  *
  */
 public class BlackjackGameSimulator {
