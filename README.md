@@ -1,4 +1,6 @@
-# Black-Jack-Simulator-Game
-
+# The Simulated BlackJack Game
+## *Designing the Game*
 ![image](https://github.com/Drew-werD/Black-Jack-Simulator-Game/assets/98638426/84bfb9a6-5342-4cd9-bea6-f7ff87eae2ee)
 Above is the UML I created, with the Player interface being implemented in, both, the Dealer and User’s class and the Cards class extending the DeckOfCards class. I implemented plenty of functionality within the User’s class to account for their points, currency, gambling amount and more along with creating simple algorithms for a few functions in the Dealer class. Since there were some commonalities between the User and Dealer classes, I felt that it was best to create an interface that would lay the foundation for the “calculatePoints()”, “resetPoints()”, “theirTurn()”, “getPoints()”, “hitOrStay()” and “drawingInitialCards()” function, since Java doesn’t support multiple inheritance. I was initially going to make the “won()” and “lost()” functions abstract and place them in the Player interface which would have worked, but decided to make these functions add/subtract funds from current amount and return the “doYouWantToContinue()” function so that the BlackJackSimulatorGame.java file looks simpler and cleaner.
+
+In addition to creating this game, I have incorporated Javadocs into this program to explain the purpose and usage of my code to, not only others, but to my future self 😊.
