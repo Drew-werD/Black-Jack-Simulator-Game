@@ -1,6 +1,6 @@
 /** The Player interface is used to define common features between
  *  the Dealer and User classes would have when playing BlackJack.
- *  @author Andrew White and Rohan Malhotra
+ *  @author Andrew White
  */
 interface Player{
 
